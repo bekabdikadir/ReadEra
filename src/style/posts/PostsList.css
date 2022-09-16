@@ -1,0 +1,127 @@
+.list__container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+.list__posts-block {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+  padding-top: 30px;
+  border-left: 1px solid #e0e0e0;
+}
+
+.card {
+  width: 30%;
+  margin: 1%;
+}
+
+.list__filter-block {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.list__pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list__btn-block {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+.list__btn {
+  width: 30%;
+}
+
+@keyframes anim {
+  0% {
+    width: 0;
+  }
+  100% {
+    transform: translateX(0);
+    width: 35%;
+  }
+}
+
+@media all and (max-width: 1250px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .card {
+    width: 45%;
+    margin: 3% auto;
+  }
+
+  .list__posts-block {
+    width: 80%;
+    border: none;
+  }
+
+  .list__container {
+    display: block;
+  }
+
+  .list__btn-block {
+    display: flex;
+  }
+
+  .list__filter-block {
+    display: none;
+    transform: translateX(-330px);
+  }
+
+  .active {
+    display: block;
+    width: 35%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    border: 1px solid #e0e0e0;
+    transition: 1s;
+    animation: anim 1s linear forwards;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .card {
+    width: 55%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .card {
+    width: 64%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .card {
+    width: 73%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .card {
+    width: 82%;
+  }
+}

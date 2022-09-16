@@ -1,0 +1,278 @@
+{
+  "posts": [
+    {
+      "user": "user1@gmail.com",
+      "date": "Sun Sep 11 2022",
+      "title": "Маленький принц",
+      "type": "Fairytale",
+      "desc": "Хорошая книжка",
+      "image": "https://main-cdn.sbermegamarket.ru/big2/hlr-system/1718471/100023074681b0.jpg",
+      "comments": [
+        {
+          "user": "user1@gmail.com",
+          "postId": 1,
+          "id": 1663146843001,
+          "comment": "321"
+        },
+        {
+          "user": "user4@gmail.com",
+          "postId": 1,
+          "id": 1663146981048,
+          "comment": "ds"
+        }
+      ],
+      "likes": [
+        {
+          "user": "user4@gmail.com",
+          "postId": 1,
+          "id": 1663077090651
+        },
+        {
+          "user": "user1@gmail.com",
+          "postId": 1,
+          "id": 1663274274305
+        }
+      ],
+      "rating": [
+        5,
+        1
+      ],
+      "selected": [
+        "user1@gmail.com"
+      ],
+      "id": 1
+    },
+    {
+      "user": "user1@gmail.com",
+      "date": "Sun Sep 11 2022",
+      "title": "Steven King-Shining",
+      "type": "Horror",
+      "desc": "Masterpeace",
+      "image": "https://cdn1.ozone.ru/s3/multimedia-c/6054778224.jpg",
+      "comments": [],
+      "likes": [
+        {
+          "user": "user1@gmail.com",
+          "postId": 2,
+          "id": 1663065897916
+        },
+        {
+          "user": "user4@gmail.com",
+          "postId": 2,
+          "id": 1663074261747
+        }
+      ],
+      "rating": [
+        5
+      ],
+      "selected": [
+        "user1@gmail.com"
+      ],
+      "id": 2
+    },
+    {
+      "user": "user1@gmail.com",
+      "date": "Sun Sep 11 2022",
+      "title": "Воспламеняющая - Steven King",
+      "type": "Fantasy",
+      "desc": "Хорошая книжка",
+      "image": "https://i.pinimg.com/736x/39/bd/7f/39bd7f9b15845c32ac2be4dcd1f888d3--king-book.jpg",
+      "comments": [
+        {
+          "user": "user1@gmail.com",
+          "postId": 1,
+          "id": 1663146843001,
+          "comment": "321"
+        },
+        {
+          "user": "user4@gmail.com",
+          "postId": 1,
+          "id": 1663146981048,
+          "comment": "ds"
+        }
+      ],
+      "likes": [
+        {
+          "user": "user4@gmail.com",
+          "postId": 1,
+          "id": 1663077090651
+        },
+        {
+          "user": "user1@gmail.com",
+          "postId": 1,
+          "id": 1663274274305
+        }
+      ],
+      "rating": [
+        5,
+        1
+      ],
+      "selected": [
+        "user1@gmail.com"
+      ],
+      "id": 3
+    },
+    {
+      "user": "user1@gmail.com",
+      "date": "Sun Sep 11 2022",
+      "title": "Преступление  и наказание",
+      "type": "Romance",
+      "desc": "Хорошая книжка",
+      "image": "https://cdn1.ozone.ru/s3/multimedia-t/6008637185.jpg",
+      "comments": [
+        {
+          "user": "user1@gmail.com",
+          "postId": 1,
+          "id": 1663146843001,
+          "comment": "321"
+        },
+        {
+          "user": "user4@gmail.com",
+          "postId": 1,
+          "id": 1663146981048,
+          "comment": "ds"
+        }
+      ],
+      "likes": [
+        {
+          "user": "user4@gmail.com",
+          "postId": 1,
+          "id": 1663077090651
+        },
+        {
+          "user": "user1@gmail.com",
+          "postId": 1,
+          "id": 1663274274305
+        }
+      ],
+      "rating": [
+        5,
+        1
+      ],
+      "selected": [
+        "user1@gmail.com"
+      ],
+      "id": 4
+    },
+    {
+      "user": "user1@gmail.com",
+      "date": "Sun Sep 11 2022",
+      "title": "1984",
+      "type": "Romance",
+      "desc": "Хорошая книжка",
+      "image": "https://i.pinimg.com/736x/03/5a/23/035a23b23786ca70da4911b38b796409--george-orwell-illustration-styles.jpg",
+      "comments": [
+        {
+          "user": "user1@gmail.com",
+          "postId": 1,
+          "id": 1663146843001,
+          "comment": "321"
+        },
+        {
+          "user": "user4@gmail.com",
+          "postId": 1,
+          "id": 1663146981048,
+          "comment": "ds"
+        }
+      ],
+      "likes": [
+        {
+          "user": "user4@gmail.com",
+          "postId": 1,
+          "id": 1663077090651
+        },
+        {
+          "user": "user1@gmail.com",
+          "postId": 1,
+          "id": 1663274274305
+        }
+      ],
+      "rating": [
+        5,
+        1
+      ],
+      "selected": [
+        "user1@gmail.com"
+      ],
+      "id": 5
+    },
+    {
+      "user": {
+        "uid": "6a2suW4srlcgQ6WfqiQWPkoYtyl2",
+        "email": "user1@gmail.com",
+        "emailVerified": false,
+        "displayName": "Nick",
+        "isAnonymous": false,
+        "photoURL": "https://muzhskoy18.ru/files/avatars/no_avatar.jpg",
+        "providerData": [
+          {
+            "providerId": "password",
+            "uid": "user1@gmail.com",
+            "displayName": "Nick",
+            "email": "user1@gmail.com",
+            "phoneNumber": null,
+            "photoURL": "https://muzhskoy18.ru/files/avatars/no_avatar.jpg"
+          }
+        ],
+        "stsTokenManager": {
+          "refreshToken": "AOEOulaTPU1S0-3wcxD9RBVEribMhZB5cae55XRw2NcyLqED_1t732a40tjW5VUZcYWTpg7gvtozVX7_NJLcbnPmyYPcA5n7kF14bss4b1aFaQTTAxxWzGWyftcnt9L843B-2r6d1N5E6n_mLW4OFSpQ2hnVr-wIIqV8p4WvZ9jmYVPWlTjf3BCQPwMDSz2L6N5_vix8ptCa",
+          "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjJkMjNmMzc0MDI1ZWQzNTNmOTg0YjUxMWE3Y2NlNDlhMzFkMzFiZDIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTmljayIsInBpY3R1cmUiOiJodHRwczovL211emhza295MTgucnUvZmlsZXMvYXZhdGFycy9ub19hdmF0YXIuanBnIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3JlYWRlcmEtNjM2Y2YiLCJhdWQiOiJyZWFkZXJhLTYzNmNmIiwiYXV0aF90aW1lIjoxNjYzMjM2MjQ4LCJ1c2VyX2lkIjoiNmEyc3VXNHNybGNnUTZXZnFpUVdQa29ZdHlsMiIsInN1YiI6IjZhMnN1VzRzcmxjZ1E2V2ZxaVFXUGtvWXR5bDIiLCJpYXQiOjE2NjMzMjA0NzQsImV4cCI6MTY2MzMyNDA3NCwiZW1haWwiOiJ1c2VyMUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsidXNlcjFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.mr2pBFurB4_86nP3fVuZutv3bSxBELQUpTq5XgpOzkptmOBnYaIMQs0F2VvBnbiFsADUd4o33FzpDoDIPaZ_HRC54W0ws9SGFZp0CGVsyeyH2DltCEoXrukuDgwCP5cJoBeVRkcjQHR7NXzpsrILLJbcW6lPRH5ActQeLIpiKIdFIPKW6eWr2qXDtqattOd4o67xPvU3wZNYIoDhzcuaENLXM-kMS6j8rklSSKp1umc3CJscVqd156RHzIbid68d5dTO__XB_eLcgU7dC2-3LNm_yd05WSt6sOz_K8a_Ns2A3zoHZaZsb54Tq3BznxB-Kg7kR5eSGKXY5DfzcWXCDQ",
+          "expirationTime": 1663324077062
+        },
+        "createdAt": "1663236248168",
+        "lastLoginAt": "1663236248168",
+        "apiKey": "AIzaSyC1hfSVDByNR16YYf5YW57ZXzCZpGU0VTs",
+        "appName": "[DEFAULT]"
+      },
+      "date": "Fri Sep 16 2022",
+      "title": "В конце они оба умрут",
+      "type": "Drama",
+      "desc": "Хорошая книга",
+      "image": "https://cdn1.ozone.ru/s3/multimedia-o/6046372236.jpg",
+      "comments": [],
+      "likes": [],
+      "rating": [],
+      "selected": [],
+      "id": 6
+    },
+    {
+      "user": {
+        "uid": "6a2suW4srlcgQ6WfqiQWPkoYtyl2",
+        "email": "user1@gmail.com",
+        "emailVerified": false,
+        "displayName": "Nick",
+        "isAnonymous": false,
+        "photoURL": "https://muzhskoy18.ru/files/avatars/no_avatar.jpg",
+        "providerData": [
+          {
+            "providerId": "password",
+            "uid": "user1@gmail.com",
+            "displayName": "Nick",
+            "email": "user1@gmail.com",
+            "phoneNumber": null,
+            "photoURL": "https://muzhskoy18.ru/files/avatars/no_avatar.jpg"
+          }
+        ],
+        "stsTokenManager": {
+          "refreshToken": "AOEOulaTPU1S0-3wcxD9RBVEribMhZB5cae55XRw2NcyLqED_1t732a40tjW5VUZcYWTpg7gvtozVX7_NJLcbnPmyYPcA5n7kF14bss4b1aFaQTTAxxWzGWyftcnt9L843B-2r6d1N5E6n_mLW4OFSpQ2hnVr-wIIqV8p4WvZ9jmYVPWlTjf3BCQPwMDSz2L6N5_vix8ptCa",
+          "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjJkMjNmMzc0MDI1ZWQzNTNmOTg0YjUxMWE3Y2NlNDlhMzFkMzFiZDIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTmljayIsInBpY3R1cmUiOiJodHRwczovL211emhza295MTgucnUvZmlsZXMvYXZhdGFycy9ub19hdmF0YXIuanBnIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3JlYWRlcmEtNjM2Y2YiLCJhdWQiOiJyZWFkZXJhLTYzNmNmIiwiYXV0aF90aW1lIjoxNjYzMjM2MjQ4LCJ1c2VyX2lkIjoiNmEyc3VXNHNybGNnUTZXZnFpUVdQa29ZdHlsMiIsInN1YiI6IjZhMnN1VzRzcmxjZ1E2V2ZxaVFXUGtvWXR5bDIiLCJpYXQiOjE2NjMzMjQyMjksImV4cCI6MTY2MzMyNzgyOSwiZW1haWwiOiJ1c2VyMUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsidXNlcjFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.sxuMjPh-Ydsor1rehA4-9FvX1CUbaxeOjr8NPpvIhYrWXQatrYAEC-D9u24871088ak8EWmOv7Sk0CELvoujEsOV_lk1q8A3kW9Kllr0Zii4VzkSBWRfmSeYLhm14abqCr-oPHteyk4JcDWzodaTsHmW7KOUxhRjetMCJu7s6ySL3o0_cWJRTOW6BTHsF9aJRNdiUhv_LHf0ONxkVIW4SYZsrRK0Hb-CKiGPVsR5BpuLryOqX56KiSNen2wdMeKdLi5fTMdG7HueAHg48fRlNUwO2xlpo8tzEVrgBZwPPsLqAYdZLbHeYWg7gBxCnkSHObhlJc3wR6_Yelyg9Brz2g",
+          "expirationTime": 1663327830030
+        },
+        "createdAt": "1663236248168",
+        "lastLoginAt": "1663236248168",
+        "apiKey": "AIzaSyC1hfSVDByNR16YYf5YW57ZXzCZpGU0VTs",
+        "appName": "[DEFAULT]"
+      },
+      "date": "Fri Sep 16 2022",
+      "title": "Игрок",
+      "type": "Classic",
+      "desc": "Хорошая книга",
+      "image": "https://knigamir.com/upload/iblock/e69/e69a3e551180bb4e161a2c227b645175.jpg",
+      "comments": [],
+      "likes": [],
+      "rating": [],
+      "selected": [],
+      "id": 7
+    }
+  ]
+}

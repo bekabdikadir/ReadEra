@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import MainRoutes from "./MainRoutes";
+import Navbar from "./components/Navbar/Navbar";
+import WelcomePage from "./pages/WelcomePage";
+import { useAuth } from "./context/AuthContextProvider";
 
-function App() {
+// Contexts imports
+
+import PostsContextProvider from "./context/PostsContextProvider";
+
+const App = () => {
+  const { user } = useAuth();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <PostsContextProvider>
+        <Navbar />
+        <MainRoutes />
+      </PostsContextProvider>
+    </>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,106 @@
+.home-container {
+  width: 80%;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image-block {
+  width: 60%;
+  height: min-content;
+  box-shadow: none;
+}
+
+.home__img {
+  width: 100%;
+}
+
+.home-content-block {
+  width: 60%;
+  font-family: "Nanum Myeongjo", serif;
+  margin-left: 30px;
+}
+
+.home-function-block {
+  width: 100%;
+  display: flex;
+}
+
+.home-btn-block {
+  margin-left: 20px;
+}
+
+@media all and (max-width: 900px) {
+  .home-image-block {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .home__title_h1 {
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 700px) {
+  .home__title_h1 {
+    font-size: 26px;
+  }
+
+  .home-content-block {
+    margin-left: 15px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .home__title_h1 {
+    font-size: 20px;
+  }
+
+  .home__title_h2 {
+    font-size: 18px;
+  }
+
+  .home-btn-block {
+    margin-left: 5px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .home-container {
+    width: 90%;
+    display: block;
+    position: relative;
+  }
+
+  .home-image-block {
+    position: absolute;
+    top: 220px;
+    left: 80px;
+    width: 70%;
+  }
+
+  .home-content-block {
+    margin: 30px auto 0;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .home-function-block {
+    justify-content: space-evenly;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .home-image-block {
+    left: 60px;
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .home-image-block {
+    left: 50px;
+  }
+}

@@ -1,0 +1,116 @@
+.detail-container {
+  width: 80%;
+  height: min-content;
+  box-shadow: 5px 5px 29px 2px rgba(34, 60, 80, 0.2);
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.preview-block {
+  width: 30%;
+  height: min-content;
+}
+
+.image-block {
+  width: 100%;
+  box-shadow: 5px 5px 29px 2px rgba(34, 60, 80, 0.2);
+}
+
+.image-block__img {
+  width: 100%;
+}
+
+.content-block {
+  width: 60%;
+  /* padding-bottom: 30px; */
+}
+
+.text-block {
+  box-shadow: 5px 5px 29px 2px rgba(34, 60, 80, 0.2);
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-block__title {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: 50px;
+  width: 80%;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.text-block__type {
+  font-family: "Nanum Myeongjo", serif;
+  color: black;
+  font-size: 22px;
+  width: 80%;
+  margin: 30px 0 0 0;
+}
+
+.text-block__desc {
+  padding-bottom: 30px;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 20px;
+  width: 80%;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+.comment-block {
+  box-shadow: 5px 5px 29px 2px rgba(34, 60, 80, 0.2);
+  height: min-content;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.add-comment-block {
+  width: 80%;
+  height: min-content;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inp-block {
+  width: 70%;
+}
+
+.add-comment__inp {
+  width: 100%;
+}
+
+.btn-block {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_comment_button {
+  width: 100%;
+}
+
+.comment-list-block {
+  width: 80%;
+}
+
+.comment-card {
+  width: 100%;
+  margin-top: 20px;
+  height: min-content;
+}
+
+@media all and (max-width: 500px) {
+  .profile-preview-block {
+    width: 60%;
+  }
+}

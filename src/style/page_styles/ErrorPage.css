@@ -1,0 +1,9 @@
+.error-page-container {
+  width: 100%;
+  height: min-content;
+  margin: 0 auto;
+}
+
+.error-page__img {
+  width: 100%;
+}
